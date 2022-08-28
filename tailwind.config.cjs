@@ -2,9 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
+    colors: {
+      primary: "#F2F2F0",
+      sekundary: "#BFACA4",
+      elements: "#59290C",
+    },
     extend: {
-      colors: {
-        custom: "#42032C",
+      fontFamily: {
+        paragraph: "'Montserrat', sans-serif",
+        header: "'Cinzel Decorative', cursive",
       },
     },
   },

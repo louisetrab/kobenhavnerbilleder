@@ -4,38 +4,49 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap"
+      rel="stylesheet"
+    />
     <title>Vite App</title>
   </head>
-  <body class="">
+  <body class="bg-primary">
     <section class="">
       <div class="relative m-8 h-64 overflow-hidden rounded-lg">
         <div class="absolute z-30 flex h-full w-full">
-          <div
-            class="relative z-30 w-5/6 px-6 py-8 text-orange-300 md:w-1/2 md:py-10"
-          >
-            <h1 class="text-2xl text-black">
-              Københavnerbilleder - en guide til hipster foto
+          <div class="relative z-30 w-5/6 px-6 py-8 md:w-1/2 md:py-10">
+            <h1 class="break-words pl-2 font-header text-2xl text-elements">
+              Københavnerbilleder
             </h1>
-            <h2 class="text-black">af Sten Simons!!!</h2>
+            <h2>- en guide til hipster foto</h2>
+            <h3 class="text-black">af Sten Simons</h3>
             <span></span>
           </div>
           <div class="absolute top-0 right-0 flex h-full w-full">
-            <div class="w-1/9 h-full bg-stone-500 opacity-50 md:w-1/3"></div>
+            <div class="w-1/9 h-full bg-elements opacity-50 md:w-1/3"></div>
             <div class="relative w-1/3">
-              <!-- <svg
-                fill="currentColor"
+              <svg
+                fill="#BFACA4"
                 viewBox="0 0 100 100"
-                class="absolute inset-y-0 z-20 h-full text-sky-900"
+                class="absolute inset-y-0 z-0 h-full opacity-30"
               >
                 <polygon
                   id="diagonal"
                   points="0,0 100,0 50,100 0,100"
                 ></polygon>
-              </svg> -->
+              </svg>
               <svg
-                fill="currentColor"
+                fill="#F2F2F0"
                 viewBox="0 0 100 100"
-                class="absolute inset-y-0 z-10 ml-6 h-full text-white opacity-50"
+                class="z-15 absolute inset-x-0 ml-4 h-full opacity-30"
               >
                 <polygon points="0,0 100,0 50,100 0,100"></polygon>
               </svg>
@@ -50,24 +61,10 @@
           />
         </div>
       </div>
-
-      <!-- <div class="">
-        <div class="w-full border-2 border-solid border-gray-500">
-          <img
-            src="https://lh3.googleusercontent.com/FRpdGtk1--tIU1s8QIAjHKBDT4Pq_hEgazmxt8RT6H65ZXboW7FizPhvbkMDyWmWLnU=w2400"
-            alt=""
-          />
-        </div>
-        <div>
-          <h1>Københavnerbilleder - en guide til hipster foto</h1>
-          <h2 class="pb-6">af Sten Simons</h2>
-          <a class="rounded-lg bg-green-300 py-3 px-7 text-white">Køb nu</a>
-        </div>
-      </div> -->
     </section>
 
-    <section class="">
-      <div class="bg-slate-200">
+    <section class="font-paragraph">
+      <div class="">
         <div class="space-y-4 py-5 text-center">
           <p>
             <strong>Titel:</strong> Københavnerbilleder - en guide til hipster
@@ -107,7 +104,7 @@
             height="240"
           />
         </picture>
-        <picture class="shadow-lg shadow-cyan-500/50">
+        <picture class="shadow-lg shadow-primary">
           <source
             srcset="img/kobenhavnerbilleder_oppefra.avif"
             type="image/avif"
@@ -199,7 +196,7 @@
     </section>
 
     <section class="">
-      <div class="bg-yellow-200 p-4 pt-5">
+      <div class="p-4 pt-5">
         <h3 class="pb-4 font-semibold">5 af 6 stjerner</h3>
         <p class="pb-3">
           Københavnerbilleder er en grundig introduktion til at skyde billeder
@@ -227,7 +224,7 @@
       </div>
     </section>
 
-    <section class="bg-blue-700 p-4">
+    <section class="p-4">
       <div>
         <h2 class="pb-2">Billeder fra bogen</h2>
       </div>
@@ -281,12 +278,12 @@
       </div>
     </section>
 
-    <section class="p-4">
+    <section class="bg-primary p-4">
       <div class="">
         <h2 class="pb-2 text-lg font-bold">Forfatteren</h2>
         <div class="">
           <div class="">
-            <div class="opacity-50s absolute h-3/5 w-4/5 bg-stone-400"></div>
+            <div class="opacity-50s absolute h-3/5 w-4/5 bg-sekundary"></div>
             <img
               class="relative w-full max-w-lg pt-9 pl-4 pb-7"
               src="https://lh6.googleusercontent.com/hXfBFEd_2cXBI9Y6hquXXM-WX66KReNPOGnzKwr3yp5oH-40Y0CNY7zb7GRmvrXBbYk=w2400"
@@ -310,12 +307,12 @@
         </div>
         <div class="pt-4">
           <h3 class="pb-6">Køb KBH billeder nu!</h3>
-          <a class="rounded-lg bg-green-300 py-3 px-7 text-white">Køb nu</a>
+          <a class="bg-green-300 text-white rounded-lg py-3 px-7">Køb nu</a>
         </div>
       </div>
     </section>
 
-    <footer class="prose mt-8 bg-white">
+    <footer class="bg-white prose mt-8">
       <div>@copy 2022</div>
     </footer>
     <script type="module" src="./main.js"></script>
